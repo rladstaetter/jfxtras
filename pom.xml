@@ -35,7 +35,7 @@
 	<groupId>org.jfxtras</groupId>
 	<artifactId>jfxtras-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>9.0-r2-SNAPSHOT</version>
+	<version>10.0-r2-SNAPSHOT</version>
 	<name>JFXtras parent</name>
 	<description>Miscellaneous components for JavaFX</description>
 	<licenses>

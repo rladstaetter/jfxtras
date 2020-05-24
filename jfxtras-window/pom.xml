@@ -35,7 +35,7 @@
 	<parent>
 		<groupId>org.jfxtras</groupId>
 		<artifactId>jfxtras-parent</artifactId>
-		<version>9.0-r2-SNAPSHOT</version>
+		<version>10.0-r2-SNAPSHOT</version>
     </parent>
     <artifactId>jfxtras-window</artifactId>
     <packaging>jar</packaging>
