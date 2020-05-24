@@ -7,7 +7,8 @@ if ERRORLEVEL 1 GOTO errorOccurred
 rem asciidoclet was never upgraded to Java 9+, so we need Java 8 to generate javadoc
 set JAVA_VERSION=8
 call java_localOverride.cmd
-call mvnw javadoc:jar deploy:deploy
+rem we're not doing this for Java 10, because... Get Java  or 11. 
+rem call mvnw javadoc:jar deploy:deploy
 
 :errorOccurred
 pause
