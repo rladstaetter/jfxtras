@@ -35,7 +35,7 @@
 	<groupId>org.jfxtras</groupId>
 	<artifactId>jfxtras-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>14-r1</version>
+	<version>15-r1</version>
 	<name>JFXtras parent</name>
 	<description>Miscellaneous components for JavaFX</description>
 	<url>http://jfxtras.org/</url>
@@ -69,9 +69,9 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.target>14</maven.compiler.target>
-		<maven.compiler.source>14</maven.compiler.source>
-		<openjfx.version>14.0.2.1</openjfx.version>
+		<maven.compiler.target>15</maven.compiler.target>
+		<maven.compiler.source>15</maven.compiler.source>
+		<openjfx.version>15.0.1</openjfx.version>
 	</properties>
 
 	<modules>
@@ -151,7 +151,7 @@
 						<dependency>
 							<groupId>org.ow2.asm</groupId>
 							<artifactId>asm</artifactId>
-							<version>7.2</version>
+							<version>9.0</version>
 						</dependency>
 					</dependencies>
 					<configuration>
@@ -177,7 +177,8 @@
 							--add-opens jfxtras.icalendaragenda/jfxtras.internal.scene.control.skin.agenda.icalendar.base24hour.popup=javafx.fxml
 
 						</argLine>
-				  	</configuration>
+						<trimStackTrace>false</trimStackTrace>
+					</configuration>
 				</plugin>				
 				<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
 				<plugin>
